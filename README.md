@@ -3,8 +3,11 @@ Meteor-impress
 
 Slight modifications to impress.js allowing it to run with meteor.
 
-Meteor has out of the box auto reload of the browser when making changes to html. This makes modification of impress.js slides really easy.
+Meteor has out of the box auto reload of the browser when making changes to html. This makes modification of impress.js slides really easy. Just install meteor ( http://docs.meteor.com/#quickstart ), run the meteor command, and then edit index.html.
 
+If you deploy the meteor app, this project also adds a count of current viewers.
+
+DEMO: http://meteor-impress.meteor.com/
 
 Meteor
 ============
