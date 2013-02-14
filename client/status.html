@@ -3,5 +3,14 @@
     <div class="info">
       <i class="icon-eye-open"></i> Viewers {{ viewersCount }}
     </div>
+    {{#if leading}}
+      <div class="info">
+        <i class="icon-group"></i> Leading {{ leadersCount }}
+      </div>
+    {{else}}
+      <div class="info">
+        <i class="icon-pushpin"></i> Following {{ leadersCount }}
+      </div>
+    {{/if}}
   </div>
 </template>
